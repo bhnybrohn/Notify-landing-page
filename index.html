@@ -13,6 +13,7 @@
 <link rel="stylesheet" href="css/style.css">
 <title>Notify! Welcome</title>
 </head>
+<body>
 <div class="home">
     <ul class="circles">
         <li></li><li></li>
@@ -29,18 +30,54 @@
                <div href="" class="text-dark dropdown" style=" text-decoration: none; ">
                    <span class="nav-link ml-auto drop-Menu">LOGIN
                              <div class="dropdown-content">
-                                 <h2 class="text-center">Notify! Log In</h2>
-                                 <p class="text-center">Welcome Back!</p><br>
-          <input type="text" class="form-control" placeholder="Input Username"aria-label="Username" aria-describedby="basic-addon1"><br>
-            <input type="text" class="form-control" placeholder="Input Password" aria-label="Username"
-                aria-describedby="basic-addon1">
-                <Br><br>
-                <button class="btn btn-outline-primary btn-lg "><a>Enter</a></button>
+                            <h3 class="text-center">Notify! Account Login</h3>
+                          <p class="text-center">Welcome Back!</p><br>
+          <input type="text" class="form-control" placeholder="Username"aria-label="Username" aria-describedby="basic-addon1"
+           data-validate = "Valid email is required: ex@abc.xyz">
+            <input type="Password" class="form-control " placeholder="Password" aria-label="Passowrd"aria-describedby="basic-addon1"
+            data-validate="Password is required">
+                <Br>
+                <button class="btn btn-outline-primary btn-block mx-auto "><a> Enter<i class="fa fa-arrow-circle-o-right"></i></a></button><br>
+                <p class="text-center">Forgot <a href="#" style="text-decoration: none;">Username/Password?</a></p>
                              </div>
+                           
                             </span>
-               </a>
-               <div class="navbar-brand" href="#"><button class="button"><span>Register
-                       </span></button></a>
+               
+               <div class="navbar-brand" href="#"><button class="button" type="button"
+                data-toggle="modal" data-target="#popUpWindow"
+                ><span>Sign Up
+                       </span></button>
+                     <div class="modal fade" id="popUpWindow">
+                         <div class="modal-dialog">
+                             <div class="modal-content">
+                                       <h3 class="modal-title">Notify! SignUp</h3><br>
+                                       <p class="modal-title">Hey! College Made Easy</p>
+                                     <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+
+                                 <div class="modal-header mx-auto">
+                                     <form role="form">
+                                         <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Email" aria-label="Email" aria-describedby="basic-addon1"
+                                                data-validate="Valid email is required: ex@abc.xyz"><br>
+                                            <input type="text" class="form-control " placeholder="Username" aria-label="Username"
+                                                aria-describedby="basic-addon1" data-validate="input a Username"><br>
+                                                   <input type="password" class="form-control" placeholder="Password"aria-label="Passowrd" aria-describedby="basic-addon1"
+                                                         data-validate = "Password is required"><br>
+                                            <input type="Password" class="form-control " placeholder="Confirm Password" aria-label="Passowrd"aria-describedby="basic-addon1"
+                                                       data-validate="Password is required">
+                                         </div>
+                                    
+                                     </form>
+                                 </div>
+                                 <!-- footer -->
+                                 <div class="modal-footer mx-auto">
+                                     <button class="btn btn-primary btn-lg btn-block">Log In</button>
+                                 </div>
+
+                             </div>
+                         </div>
+                     </div>
+                    
                     </div>
        </div>
    </nav>
@@ -51,14 +88,14 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active text-center ">
-                <span style="font-weight: bolder; font-size: 25px;  ">Welcome To <span style="color:#029398;">
+                <span class="carousel-sub" >Welcome To <span style="color:#029398;">
                         Notify!</span><span>
-                <h1 style="font-size: 70px; font-weight: bold;">A One Stop Social Environment <br>For College Students</h1>
+                <h1 class="carousel-header">A One Stop Social Environment <br>For College Students</h1>
             </div>
             <div class="carousel-item text-center">
-                <h6 style="font-weight: bolder; font-size: 25px">Share Headlines, Pictures, Videos
+                <h6 class="carousel-header">Share Headlines, Pictures, Videos
                     Captions Documents Emotions and ideas seamlessly without <span style="color: #029398">Limits</span></h6>
-                <h1 style="font-size: 70px;font-weight: bold;">Share Everything <br>That's Worth Sharing</h1>
+                <h1 class="carousel-sub"Share Everything <br>That's Worth Sharing</h1>
             </div>
             <div class="carousel-item text-center">
                 <h6 style="font-weight: bolder; font-size: 25px;">Discover Your<span
@@ -68,29 +105,44 @@
                     Campus</h1>
             </div>
             <div class="carousel-item text-center">
-                <h6 style="font-weight: bolder; font-size: 25px;">Search For Freelance jobs that match your expertise<br>
+                <h6 class="carousel-header">Search For Freelance jobs that match your expertise<br>
                     Deliver the required service and make some extra <span style="color: #029398">cash</span>
                 </h6>
                 <h1 style="font-size: 70px;font-weight: bold;">Offer Help & Make Some Cash</h1>
                         </div>
                         <div class="carousel-item text-center">
-                <h6 style="font-weight: bolder; font-size: 25px;">Find Everything you need with One Click Search!
+                <h6 class="carousel-header">Find Everything you need with One Click Search!
                     Join us with <br>One Step Registration it's <span style="color: #029398">Free</span>
 
                     </h6>
-                <h1 style="font-size: 70px;font-weight: bold;">Simple, Elegent & Free</h1>
+                <h1 class="carousel-header">Simple, Elegent & Free</h1>
                 </div>
         </div>
     </div>
 </div>
         </div>
+    </div> 
+</div>     
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="footer-main col-md-12 ">
+            
+            <a href="Privacy.html"  >Privacy Policy</a>&nbsp;&nbsp;
+            <a href="#">Terms of Service</a>&nbsp;&nbsp;
+            <a href="">Contact Us</a>
+        </div>
     </div>
-       
+</div>.
+<div class="container-fluid">
+    <div class="row">
+        <div class="footer-foot col-md-12">
+               <h1> &copy; 2019 <i> Notify! inc </i> ALL RIGHTS RESERVED </h1>
+        </div>
+    </div>
+    
 </div>
-
-      
-</div>
-
 
 <script src="js/app.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js"></script>
