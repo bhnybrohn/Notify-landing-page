@@ -113,11 +113,11 @@ a.navbar-brand {
 .carousel-sub{
     font-weight: bolder;
     font-size: 25px;
-    color:red;
+    color:rgb(0, 0, 0);
 }
 
 .carousel-header{
-    font-size: 70px;
+    font-size: 75px;
     font-weight: bold;
 }
 
@@ -429,15 +429,13 @@ h4.classic {
 @media only screen and (max-width: 600px) {
   .home {
       height: 100vh;
-      background-color: black;
+      background-color: rgb(255, 255, 255);
       position: relative;
 
       opacity: 50%;
   }
   .footer-main {
-      background: linear-gradient(to right, #025370, green);
-      /* border-top: 1px solid #000000;
-    border-bottom: 1px solid #000000; */
+      background: linear-gradient(to right, #025370, #048abb);
       padding: 7px 7px 7px 7px;
       text-align: center;
       position: absolute;
@@ -447,7 +445,6 @@ h4.classic {
   }
   .drop-Menu:hover .dropdown-content {
       display: block;
-      /* position:relative; */
       margin:0 auto;
       width:200px;
       transition: all 6s;
@@ -455,4 +452,37 @@ h4.classic {
 
 
   }
+  .carousel-header{
+      font-size:50px;
+  }
+  .carousel-sub{
+      font-size:28px;
+  }
+  .navbar-light .navbar-brand {
+      color: #029398;
+      font-size: 15px;
+  }
+
 }
+@media only screen and (min-width: 320px) and 
+(max-width: 568px) and
+ (-webkit-min-device-pixel-ratio: 2) {
+.navbar-light .navbar-brand {
+    color: #029398;
+    font-size: 25px;
+}
+.button {
+    border: 2px solid #029398;
+    background: transparent;
+
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 17px;
+    padding: 10px;
+    width: 100px;
+    transition: all 1s;
+    cursor: pointer;
+    margin: 10px;
+    /* box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.1);  */
+}
+ }
