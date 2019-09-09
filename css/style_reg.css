@@ -6,7 +6,7 @@
 
 body {
     
-   background-color: #ffffff;
+   background-color: #f7f7f7;
     
 }
 
@@ -118,29 +118,14 @@ h4.form-link{
 h4.form-link span a{
     text-decoration: none;
 }
-.contact-info{
-    padding-left: 3em;
-    position: relative;
-    float: center;
-    padding-bottom: 150px
-    
-}
-.contact-class {
-    width: 20em;
-    padding:10px 10px 10px 10px;
-    border: 3px solid #029398;
-}
-.left-box{
-    display: inline;
-    float: right;
-   
-}
-.left-box2{
-    position: relative;
+
 
 }
-.contact-box2 input btn  {
-    position: relative;
-    display: inline;
-    width:30em;
+form.form-contact{
+    width: 30em;
+    position: absolute;
+    margin-left: 30px;
+}
+form.form-contact .form-message input{
+    height: 4cm;
 }

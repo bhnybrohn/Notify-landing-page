@@ -14,12 +14,13 @@
  body {
 font-family: 'Roboto Condensed',
 sans-serif;
+background-color: #f7f7f7;
   
 } 
 
 .home {
     height: 100vh;
-    background-color: #ffffff;
+    background-color: #f7f7f7;
     position: relative;
 
     opacity: 50%;
@@ -40,19 +41,9 @@ sans-serif;
 
 
 .navbar-light .navbar-nav .nav-link {
-    background:
-        linear-gradient(to bottom, var(--mainColor) 0%,
-            var(--mainColor) 100%);
-    background-position: 0 100%;
-    background-repeat: repeat-x;
-    background-size: 0px 0px;
-    color: #000;
-    text-decoration: none;
-    transition: background-size .4s;
-    font-size: 17px;
     font-family: 'Oswald',
         sans-serif;
-    text-decoration: none;
+    
     
 
 }
@@ -64,11 +55,6 @@ ul.nav {
     overflow: hidden;
 }
 
-ul.nav li {
-    position: relative;
-    text-align: center;
-    padding-top: 25px;
-}
 
 a.navbar-brand {
     font-size: 30px;
