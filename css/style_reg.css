@@ -1,4 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Muli|Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 :root {
     --input-padding-x: 1.5rem;
     --input-padding-y: .75rem;
@@ -7,6 +9,8 @@
 body {
     
    background-color: #f7f7f7;
+   font-family: 'Roboto Condensed',
+   sans-serif;
     
 }
 
@@ -111,6 +115,12 @@ body {
     font-size: 12px;
     color: #777;
 }
+.div-card{
+    background-color: #d1ecf6;
+}
+input#Message{
+    height: 4cm;
+}
 h4.form-link{
     font-size: 1em;
     padding: 1em;
@@ -119,13 +129,54 @@ h4.form-link span a{
     text-decoration: none;
 }
 
+.contact-info h3{
+  text-align: left;
+  font-size: 2.5em;
+  padding-top: 50px;
+font-family: 'Raleway',
+  sans-serif;
+  padding-left: 20px;
+ 
+}
+.contact-class{
+    text-align: left;
+    font-size: 1.5em;
+    padding: 15px 10px 10px 15px;
+    font-family: 'Raleway',
+    sans-serif;
+}
+.contact-class h1  {
+    font-size: 1.2em;
+    
+    padding-top: 20px;
+    
+    
+}
+.contact-class h2{
+      font-size: 1.2em;
+     
+      
+}
+.contact-class a {
+    text-decoration: none;
+    color: #048abb;
+    font-size: 1.2rem;
+    padding-bottom: 50px;
 
 }
-form.form-contact{
-    width: 30em;
-    position: absolute;
-    margin-left: 30px;
+.contact-class a:hover {
+
+    color: #1c04a3;
 }
-form.form-contact .form-message input{
-    height: 4cm;
+@media only screen and (max-width:600px) {
+
+    .contact-class{
+        display: none;
+    }
+    .contact-info{
+        display: none;
+    }
+    .div-card {
+        background-color: #f7f7f7;
+    }
 }
