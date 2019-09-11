@@ -367,7 +367,8 @@ h4.classic {
 }
 @media only screen and (max-width:600px)  {
   .home {
-      height: 90vh;
+      height: 85vh;
+      
       background-color: rgb(255, 255, 255);
       position: relative;
       opacity: 50%;
@@ -426,13 +427,13 @@ h4.classic {
     margin: 10px;
 
 }
-.drop-Menu:hover .dropdown-content {
+/* .drop-Menu:hover .dropdown-content {
     display: block;
     margin: 0 auto;
     width: 200px;
     transition: all 6s;
     padding-top: 20px;
- }
+ } */
  .carousel-header {
      font-size: 45px;
      padding-bottom: 30px;
@@ -463,6 +464,7 @@ h4.classic {
  (device-width: 320px) and (device-height: 568px) 
 and (-webkit-device-pixel-ratio: 2)
 {
+    
   .footer-main {
       background: linear-gradient(to right, #025370, #048abb);
 
