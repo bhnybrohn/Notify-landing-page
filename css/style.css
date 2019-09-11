@@ -35,17 +35,19 @@ background-color: #f7f7f7;
     font-size: 28px;
      font-family: 'Oswald',
     sans-serif;
+    
 }
 
 
 .navbar-light .navbar-nav .nav-link {
     font-family: 'Oswald',
         sans-serif;
-    
-    
 
+
+    }
+.navbar .nav-link .navbar-brand{
+    padding-left: 20px;
 }
-
 
 
 a.navbar-brand {
@@ -215,7 +217,7 @@ a.navbar-brand {
     text-align: center;
     font-size: 17px;
     padding: 10px;
-    width: 130px;
+    width: 120px;
     transition: all 1s;
     cursor: pointer;
     margin: 10px;
